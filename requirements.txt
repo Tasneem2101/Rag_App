@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+streamlit
+python-dotenv
+boto3
+ollama
+chromadb
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-aws
+langchain-groq
+huggingface-hub
+sentence-transformers
+PyMuPDF

@@ -25,7 +25,7 @@ app = FastAPI()
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # Load vector store (FAISS)
-db = FAISS.load_local("faiss_index-gahar", embeddings, allow_dangerous_deserialization=True)
+db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
 retriever = db.as_retriever()
 
 # ---------------------------
